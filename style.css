@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background: linear-gradient(red 0%, blue 100%)
+}
+
+my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+
+.page {
+    text-decoration: none;
+    color: white;
+    font-family: serif;
+    font-size: 20;
+}
+
+.page:hover {
+    background-color: maroon;
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+    .link {
+        display: inline;
+        margin: 50;
+    }
+}
+
+#heading {
+    font-family: cursive;
+    font-size: 30;
+}
+
+#navbar2header {
+    background-color: greenyellow;
+}
+
+marquee {
+    font-size: 25;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: yellow;
+}
