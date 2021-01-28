@@ -3,7 +3,7 @@ body {
     background: linear-gradient(red 0%, blue 100%)
 }
 
-my_nav_bar {
+.my_nav_bar {
     position: sticky;
     top: 0;
     z-index: 10000;
@@ -17,8 +17,8 @@ my_nav_bar {
 }
 
 .page:hover {
-    background-color: maroon;
-    color: white;
+    background-color: darkred;
+    color: yellow;
     text-decoration: none;
 }
 
@@ -34,7 +34,7 @@ my_nav_bar {
     font-size: 30;
 }
 
-#navbar2header {
+#marquee1 {
     background-color: greenyellow;
 }
 
@@ -42,7 +42,23 @@ marquee {
     font-size: 25;
 }
 
-h1 {
+.text-capitalize {
     font-family: 'Lobster', cursive;
     color: yellow;
+    font-size: 50;
+}
+
+.subheader {
+    font-family: cursive;
+    font-size: 30;
+    color: white;
+}
+
+.subsubheader {
+    font-family: serif;
+    color: chartreuse;
+}
+
+.body {
+    color: aqua;
 }
